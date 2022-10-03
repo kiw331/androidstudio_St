@@ -2,10 +2,8 @@ package com.example.unimarket_dv;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.MenuItem;
-
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
@@ -18,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
         //프래그먼트생성
         fragment1 = new Fragment1();
@@ -51,7 +48,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
-
-
 }
